@@ -15,11 +15,9 @@ gem 'devise'
 
 group :production do
   gem 'pg', '~> 0.15'
-  gem 'rails_12factor'
 end
 
-group :development, :test do
-  gem 'pg', '~> 0.15'
+group :development do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
